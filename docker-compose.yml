@@ -9,4 +9,4 @@ services:
         ports:
             - 8080:8000
         volumes:
-            - Users/mbtiles:/tilesets
+            - /home/ec2-user/mbtiles:/tilesets
